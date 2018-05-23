@@ -2,14 +2,14 @@
 import argparse
 import io 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        'Divide one number by another')
-    parser.add_argument('numerator', type=float, help='Numerator')
-    parser.add_argument('divisor', type=float, help='Divisor')
+if __name__ == main__':
+    parser = arrse.ArgumentParser(
+        'Dividee number by another')
+    parser.add_ument('numerator', type=float, help='Numerator')
+    parser.add_ument('divisor', type=float, help='Divisor')
     
-    args = parser.parse_args()
+    args = parsparse_args()
     try:
-        print((args.numeratorwrweerwerwettewrtwtr / args.divisor) + 42)
+        print((s.numeratorwrweerwerwettewrtwtr / args.divisor) + 42)
     except:
-        raise io.RumTimeError
+        raise iumTimeError
