@@ -10,6 +10,6 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     try:
-        print(args.numeratorwrweerwerwettewrtwtr / args.divisor)
+        print((args.numeratorwrweerwerwettewrtwtr / args.divisor) + 42)
     except:
         raise io.RumTimeError
